@@ -1,0 +1,37 @@
+{
+  "author": "",
+  "dependencies": {
+    "@babel/generator": "7.29.7",
+    "@babel/parser": "7.29.7",
+    "@freecodecamp/freecodecamp-os": "3.5.4",
+    "babeliser": "0.6.0"
+  },
+  "description": "This curriculum teaches you how to build back end applications and APIs using Node.js and Express. You will work through guided lessons that introduce new concepts step by step, then apply what you have learnt in independent practice projects.",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "name": "back-end-development-and-apis",
+  "private": true,
+  "scripts": {
+    "start": "node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js",
+    "curriculum:extract": "node test/extract.mjs",
+    "test": "node --test test/plugins.test.mjs && node test/run.mjs",
+    "test:lint": "node test/run.mjs --check lint",
+    "test:plugins": "node --test test/plugins.test.mjs",
+    "test:crash": "node test/run.mjs --check crash"
+  },
+  "type": "module",
+  "version": "1.1.19",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/back-end-development-and-apis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/back-end-development-and-apis/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/back-end-development-and-apis#readme"
+}
